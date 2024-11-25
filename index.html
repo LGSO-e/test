@@ -5,78 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
     <meta name="robots" content="noindex">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            background-color: #f4f4f9;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        main {
-            padding: 2rem;
-        }
-        section {
-            margin-bottom: 2rem;
-        }
-        .project {
-            border: 1px solid #ddd;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            border-radius: 5px;
-            background: #fff;
-        }
-        .project h3 {
-            margin-top: 0;
-        }
-        .project a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        .project a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- En-tête de la page -->
     <header>
         <h1>Mon Portfolio GitHub</h1>
     </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Contenu principal -->
     <main>
         <section>
             <h2>Mes Projets</h2>
             <div class="project">
-                <h3>Projet 1 : compil</h3>
+                <h3>Projet 1 : Création d'un langage de programmation avec son compilateur</h3>
                 <p>Un portfolio interactif pour afficher mes projets.</p>
                 <a href="https://drive.google.com/drive/folders/1JcS4x7mMf8KSlLsSeEBomprOgR3QJmdW?usp=drive_link" target="_blank">Voir le projet sur Google Drive</a>
             </div>
             <div class="project">
-                <h3>Projet 2 : Gestionnaire de Tâches</h3>
+                <h3>Projet 2 : Familiarisation STM32</h3>
                 <p>Une application pour gérer vos tâches quotidiennes.</p>
                 <a href="https://drive.google.com/drive/folders/1LM7NXpOLiPuVg63Kupp7lcBk0wthkijq?usp=drive_link" target="_blank">Voir le projet sur Google Drive</a>
             </div>
             <div class="project">
-                <h3>Projet 3 : Blog Personnel</h3>
+                <h3>Projet 3 : Création microprocesseur SIMJI</h3>
                 <p>Un blog construit avec HTML, CSS et JavaScript.</p>
                 <a href="https://github.com/votre-utilisateur/blog-personnel" target="_blank">Voir le projet sur GitHub</a>
             </div>
         </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Vous pouvez me contacter via :</p>
+            <ul>
+                <li><strong>Email :</strong> <a href="mailto:contact@votreemail.com">contact@votreemail.com</a></li>
+                <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/votreprofil" target="_blank">Mon profil LinkedIn</a></li>
+                <li><strong>Téléphone :</strong> <a href="tel:+1234567890">+12 34 56 78 90</a></li>
+            </ul>
+        </section>
     </main>
+
+    <!-- Pied de page -->
     <footer>
         <p>&copy; 2024 Mon Portfolio</p>
     </footer>
